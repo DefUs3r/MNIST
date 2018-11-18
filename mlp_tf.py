@@ -1,10 +1,3 @@
-# Multilayer Perceptron
-# input: X (size= 28*28=784)
-# 1st hidden layer : 256 neurons, ReLu -> 256 features
-# 2nd hidden layer : 256 neurons, ReLu -> 256 features
-# output layer : 256 features, linear -> 10 class
-
-
 import tensorflow as tf
 
 from tensorflow.examples.tutorials.mnist import input_data
